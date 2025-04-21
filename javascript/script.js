@@ -11,13 +11,17 @@ function clearDisplay(){
 }
 
 
-function squareRoot(){
-    num = Number(display.value)
-    square = Math.sqrt(num)
+function square(){
+    const square = display.value * display.value
     display.value = square
 }
 
+function cube(){
+   const num = display.value * display.value * display.value
+    display.value = num
+}
+
 function result(){
-      output = eval(display.value)
+     const output = eval(display.value)
       display.value = output
 }
