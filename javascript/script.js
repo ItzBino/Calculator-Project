@@ -1,6 +1,5 @@
-display = document.getElementById('display')
+const display = document.getElementById('display')
 
-buttons = document.querySelectorAll('button');
 
 function appendToDisplay(value){
     display.value += value
